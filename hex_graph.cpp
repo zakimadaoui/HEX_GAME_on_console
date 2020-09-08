@@ -115,8 +115,8 @@ void HEX_GRAPH::printGraph()
         cout << spaces;
         for(int j = 0 ; j< size ; j++ ){
             string node_state = "*";
-            if(nodes[i*size + j]->st == state::RED) node_state = "R";
-            else if(nodes[i*size + j]->st == state::BLUE) node_state = "B";
+            if(nodes[i*size + j]->st == state::RED) node_state = "X";
+            else if(nodes[i*size + j]->st == state::BLUE) node_state = "O";
 
             cout << node_state;
             if(j != (size-1)) cout << " - ";

@@ -36,7 +36,7 @@ int main()
 
     HEX_GRAPH g(size);// create graph object
 
-    cout << "What color do you choose ? (BLUE: 1 ; RED: 2): ";
+    cout << "What color do you choose ? (BLUE(X): 1 ; RED(O): 2): ";
     cin>> choice;
     assert(choice == 1 || choice == 2);
     if(choice == 1){
